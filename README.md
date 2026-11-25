@@ -1,22 +1,33 @@
-# Tarun Pediredla
+![Tarun Pediredla — Full Stack Python Developer in Hyderabad, India](./assets/profile-cover.svg)
 
-**Full Stack Python Developer · Hyderabad, India**
+I build Python APIs and React applications. Two problems I’ve enjoyed working on are tracing an insurance claim back to its policy terms and finding an interview answer while someone is still speaking.
 
-I build web applications with Django, FastAPI, React and PostgreSQL. My work includes insurance software that explains where a claims calculation comes from and voice tools that help developers practise for technical interviews.
+**[Explore my portfolio ↗](https://tarun-pediredla-portfolio.web.app/)**
 
-[View my portfolio](https://tarun-pediredla-portfolio.web.app/)
+## Featured work
 
-## Selected projects
+### Insurance & Reinsurance Platform
+Follow a claim from the initial loss through its deductible, the insurer’s share and the amount recoverable from a reinsurer. Reviewers can also ask questions about uploaded policies and read the clauses behind an answer.
 
-| Project | What I built |
-| --- | --- |
-| [Insurance & Reinsurance Platform](https://github.com/tarunpediredla-GenAi/insuresphere-ai) | A Django and React application for reviewing claims, calculating how much of a loss a reinsurer covers, and answering policy questions with citations from uploaded documents. |
-| [Voice Interview Bot](https://github.com/tarunpediredla-GenAi/voice-interview-bot-fast) | A React interface that captures spoken interview questions and a FastAPI service that matches them against a local question bank. Gemini handles questions outside the bank when enabled. |
-| [Satya Education Institute](https://github.com/tarunpediredla-GenAi/SatyaEducationinstitute) | A storefront where students can browse recorded courses and books, pay online and access the material they purchase. [Visit the storefront](https://satyaeducationinstitute.vercel.app/) |
+`Django REST Framework` · `PostgreSQL` · `React` · `RAG`  
+[Explore the insurance platform →](https://github.com/tarunpediredla-GenAi/insuresphere-ai)
 
-## Tools I work with
+### Voice Interview Bot
+Ask a technical question aloud. The app matches the transcript against a local interview bank as you speak, with an optional Gemini fallback for questions outside the bank.
 
-- **Backend and data** — Python, Django REST Framework, FastAPI, PostgreSQL
-- **Frontend** — React, TypeScript, JavaScript
-- **Generative AI and automation** — retrieval-augmented generation (RAG), LLM APIs, tool calling, n8n
-- **Infrastructure** — AWS, Docker, CI/CD
+`FastAPI` · `React` · `Web Speech API` · `Gemini`  
+[Explore the voice application →](https://github.com/tarunpediredla-GenAi/voice-interview-bot-fast)
+
+### Satya Education Institute
+A storefront for recorded courses and books. Students can browse the catalogue, pay online and access their purchases.
+
+`E-commerce` · `Payments` · `Course access`  
+[Visit the storefront ↗](https://satyaeducationinstitute.vercel.app/) · [Browse the code →](https://github.com/tarunpediredla-GenAi/SatyaEducationinstitute)
+
+## Engineering toolkit
+
+| Web and data | AI and automation | Delivery |
+| --- | --- | --- |
+| Python, Django, FastAPI | Retrieval-augmented generation | AWS |
+| React, TypeScript, JavaScript | LLM APIs and tool calling | Docker |
+| PostgreSQL, REST APIs | n8n workflows | CI/CD |
